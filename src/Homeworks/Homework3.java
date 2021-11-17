@@ -1,4 +1,4 @@
-package Webinar3_15_11_2021;
+package Homeworks;
 
 import java.util.Locale;
 import java.util.Scanner;

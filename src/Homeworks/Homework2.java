@@ -1,3 +1,5 @@
+package Homeworks;
+
 public class Homework2 {
     public static void main(String[] args) {
         wiekUztykownika(18); //wynik ćwiczenia 1
