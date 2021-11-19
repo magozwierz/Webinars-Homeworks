@@ -1,4 +1,4 @@
-package Webinar3_15_11_2021;
+package webinar3_15_11_2021;
 
 public class zadanie1 {
     int a = 7;

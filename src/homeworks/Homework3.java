@@ -1,4 +1,4 @@
-package Homeworks;
+package homeworks;
 
 import java.util.Locale;
 import java.util.Scanner;
