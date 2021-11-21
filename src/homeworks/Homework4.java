@@ -41,6 +41,11 @@ public class Homework4 {
             String contact = "Kontakt : 111−222−333";
             String phoneNumber = contact.substring(10);
             System.out.println("Zmienna phoneNumber pobrana z contact: " + phoneNumber);
+            String phoneNo1 = contact.substring(10,12);
+            String phoneNo2 = contact.substring(14,16);
+            String phoneNo3 = contact.substring(18,20);
+            System.out.println("Numer telefonu bez myślników: " + phoneNo1+phoneNo2+phoneNo3);
+
 
             System.out.println("\nCwiczenie4:");
             Scanner word1User = new Scanner(System.in);

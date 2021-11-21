@@ -15,7 +15,6 @@ public class Homework3 {
 
         //Cwiczenie 1.2:
         System.out.println("Cwiczenie1.2:");
-        Scanner scanner2 = new Scanner(System.in);
         System.out.println("Podaj pierwszą liczbę");
         String number1 = scanner.next();
         System.out.println("Podaj drugą liczbę");
@@ -25,11 +24,10 @@ public class Homework3 {
         //Cwiczenie2.1:
         System.out.println("Cwiczenie2.1:");
         String zmiennaTextowa = "abc def ghi";
-        System.out.println(zmiennaTextowa.toUpperCase(Locale.ROOT));
+        System.out.println(zmiennaTextowa.toUpperCase());
 
         //Cwiczenie2.2:
         System.out.println("Cwiczenie2.2:");
-        Scanner scanner3 = new Scanner(System.in);
         System.out.println("Podaj jakiś teskt/wyraz");
         String text = scanner.next();
         System.out.println("Podaj jakąś literę");
@@ -50,7 +48,6 @@ public class Homework3 {
 //        Rozpoczynasz tworzenie gry, w której celem jest przekomarzanie się z użytkowni-
 //                kiem. Jeśli użytkownik wpisze wartość ”true” wyświetl mu wartość ”false”. Jeśli
 //        wpisze ”false” wyświetl mu ”true”. W zadaniu wykorzystaj operator negacji
-        Scanner scanner4 = new Scanner(System.in);
         System.out.println("Wybierz true lub false");
         boolean choice = scanner.nextBoolean();
         System.out.println(!choice);
