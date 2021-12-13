@@ -12,7 +12,7 @@ public class Exercise4 {
 
     }
     public static void main(String[] args) {
-        int table1[] = {3,6,9,6,12};
+        int [] table1 = {3,6,9,6,12};
         squaredTable(table1);
     }
 
